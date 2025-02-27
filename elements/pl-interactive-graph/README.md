@@ -8,7 +8,7 @@
 To use the `pl-interactive-graph` element in your PrairieLearn course:
 
 1. **Include the Element in Your Question**: Embed the custom element tag `<pl-interactive-graph>`in your question HTML file.
-2. **Define the Graph**: Specify the graph structure within the tag using your desired graph generation method. Use DOT language to specify your graph, to learn how to use DOT language, navigate to https://graphviz.org/. *Note:* If you would like randomized graphs, you do not need to use the DOT language.
+2. **Define the Graph**: Specify the graph structure within the tag using your desired graph generation method. Use DOT language to specify your graph, to learn how to use DOT language, navigate to https://graphviz.org/. *Note:* If you would like randomized graphs, you do not need to use the DOT language, feel free to leave the body blank.
 3.  **Set Attributes**: Customize the behavior and appearance of the graph using XML attributes. Attributes numbered 9-16 are used for random graphs. If you are not using a random graph, these attributes add nothing. Further, attributes 16 and on are part of the existing `pl-graph` element. The element supports a variety of attributes to cater to different question types and requirements:
 
 	1. `preserve-ordering`: String. If set to `"True"`, it requires the answer sequence to match exactly.
@@ -41,7 +41,7 @@ To use the `pl-interactive-graph` element in your PrairieLearn course:
 
 	15. `tree`: Boolean. Specifies if the random graph should be a tree.
 
-    	16. `connected`: Boolean. Specifies if the random graph should be connected.
+    16. `connected`: Boolean. Specifies if the random graph should be connected.
 
 	17.  `directed`: Boolean. Whether to treat edges in an adjacency matrix as directed or undirected. If set to false, then edges will be rendered as undirected. The input adjacency matrix must be symmetric if this is set to false.
 
@@ -71,13 +71,11 @@ Some of the attributes have been inherited from pl-graph, here is more informati
 ## Description
 The students will be presented with a graph of your specified structure and each node and edge will be clickable according to your selection. Students can click the nodes/edges and depending on the element attribute values, the order might matter (they can also unclick nodes). A list of clicked nodes and/or edges in the corresponding order will be shown right under the graph. When the students click "submit" the element will record the clicked nodes and provide them to the backend. The backend has 2 options for grading, one with provision of direct answers through the 'answers' attribute and automatic through the 'grading' attribute, which allows to select of an algorithm to automatically grade the submission for both random and provided graph. 
 
-[Here](https://docs.google.com/presentation/d/1Dr3IpX5KgqjYPDt15EAJK48x462bg-Tt8RRgpj-p_MM/edit?usp=sharing) is our slide deck for the Spring 2024 semester.
-
 ## Suggested Use
-This element is not only limited to purely graph traversal questions. Some of the possible problems that could be modelled by this element are (but not limited to): Network Flow, Finite State Machines, Pathfinding Algorithms, etc. 
+This element is not only limited to purely graph traversal questions. Some of the possible problems that could be modelled by this element are (but not limited to): Network Flow, Finite State Machines, Markov Chains, Bayes Nets, Pathfinding Algorithms, Routing Protocols etc. 
 
 ## Example
-Different examples have been included in the questions folder. They are titled `pl-interactive-graph-examples/BFS_Example`, `pl-interactive-graph-examples/DFS_Example`, `pl-interactive-graph-examples/Clickable_Edges_Kruskals`, `pl-interactive-graph-examples/Clickable_Nodes_Dijkstras`, `pl-interactive-graph-examples/Clickable_Nodes_Finite_State_Machine`,  `pl-interactive-graph-examples/Random_Graph_BFS_Autograding_Example`, `pl-interactive-graph-examples/Random_Graph_DFS_Autograding_Example` and `pl-interactive-graph-examples/Clickable_Nodes_Finite_State_Machine`
+Different examples have been included in the questions folder.
 
 Here's an example of how you might use `pl-interactive-graph` in a question about graph traversal:
 
