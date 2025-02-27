@@ -1,0 +1,10 @@
+{
+  "uuid": "5d064bf1-d737-45db-92c2-2b20bb3ec76e",
+  "name": "CS 194STAR",
+  "title": "STAR Assessments",
+  "options": {
+    "useNewQuestionRenderer": true
+  },
+  "assessmentSets": [],
+  "topics": []
+}

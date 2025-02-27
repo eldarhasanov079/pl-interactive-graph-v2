@@ -1,0 +1,39 @@
+{
+    "uuid": "7046c3d0-567a-4e1d-a352-ce82d031f7ab",
+    "type": "Homework",
+    "title": "Interactive Graph Examples",
+    "set": "Homework",
+    "number": "1",
+    "allowAccess": [],
+    "zones": [
+        {
+            "comment": "These are new questions created for the pl-interactive-graph element",
+            "questions": [
+                {
+                    "id": "pl-interactive-graph-examples/BFS_Example",
+                    "autoPoints": 1
+                },
+                {
+                    "id": "pl-interactive-graph-examples/DFS_Example",
+                    "autoPoints": 1
+                },
+                {
+                    "id": "pl-interactive-graph-examples/Random_Graph_BFS_Autograding_Example",
+                    "autoPoints": 1
+                },
+                {
+                    "id": "pl-interactive-graph-examples/Random_Graph_DFS_Autograding_Example",
+                    "autoPoints": 1
+                },
+                {
+                    "id": "pl-interactive-graph-examples/Clickable_Nodes_Dijkstras",
+                    "autoPoints": 1
+                },
+                {
+                    "id": "pl-interactive-graph-examples/Clickable_Edges_Kruskals",
+                    "autoPoints": 1
+                }
+            ]
+        }
+    ]
+}
