@@ -4,7 +4,7 @@
 This project introduces an **interactive graph-based assessment tool** designed for online learning platforms. It allows students to dynamically interact with graph models by clicking on nodes and edges to simulate different algorithms. The tool supports a range of graph-based problems, from **basic traversals (BFS, DFS)** to **advanced algorithms (Dijkstra’s, Kruskal’s, Hypercube processing)**.
 
 📢 **Presented at [SIGCSE 2025 Technical Symposium](https://sigcse2025.org/) in Pittsburgh, PA.**  
-📄 **Publication: [An Interactive Tool for Randomized Autogradable Graph Assessments](#)** _(Add publication link when available)_
+📄 **Publication: [An Interactive Tool for Randomized Autogradable Graph Assessments](https://dl.acm.org/doi/10.1145/3641555.3705123)** 
 
 ## Features  
 - 🎯 **Interactive Graph Manipulation** – Click nodes/edges to simulate different algorithms.  
