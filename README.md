@@ -48,7 +48,7 @@ docker pull --platform linux/x86_64 prairielearn/prairielearn
 Wait for <ins>http://localhost:3000</ins> to appear and click on it.
 
 ### **4. Load From Disk**  
-Click "Load From Disk" In the top right corner.
+Click "Load From Disk" in the top right corner and wait for it to run.
 
 ### **5. You are all set!**  
 Try some of the example questions. Try changing their XML, or create your own questions (more information in the elements/pl-interactive-graph folder's README.md)
